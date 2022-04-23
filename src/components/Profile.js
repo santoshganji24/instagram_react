@@ -21,7 +21,6 @@ export default function Profile() {
 
   return (
     <main>
-     
       <section className="section-one">
         <div className="one">
           <div className="circleOne"></div>
@@ -34,22 +33,37 @@ export default function Profile() {
           <div className="rowone">
             <div className="username">
               santoshrks{" "}
-              <a href="#" id="angle" class="link-4 link username-mob-eclipse">
-                <svg
-                  aria-label="Options"
-                  class=""
-                  color="#262626"
-                  fill="#262626"
-                  height="45px"
-                  role="img"
-                  viewBox="0 0 24 24"
-                  width="45px"
-                >
-                  <circle cx="12" cy="12" r="1.5"></circle>
-                  <circle cx="6" cy="12" r="1.5"></circle>
-                  <circle cx="18" cy="12" r="1.5"></circle>
-                </svg>
-              </a>
+              {/* <div onClick={() => SetShowModal(true)} id="checkModal">
+              <OutsideClickHandler onOutsideClick={() => SetShowModal(false)}>
+                <a href="#" className="link-4 link" id="angle">
+                  <i class="fa-solid fa-ellipsis"></i>
+                </a>
+              </OutsideClickHandler>
+            </div> */}
+              <div onClick={() => SetShowModal(true)}>
+                <OutsideClickHandler onOutsideClick={() => SetShowModal(false)}>
+                  <a
+                    href="#"
+                    id="angle"
+                    class="link-4 link username-mob-eclipse"
+                  >
+                    <svg
+                      aria-label="Options"
+                      class=""
+                      color="#262626"
+                      fill="#262626"
+                      height="45px"
+                      role="img"
+                      viewBox="0 0 24 24"
+                      width="45px"
+                    >
+                      <circle cx="12" cy="12" r="1.5"></circle>
+                      <circle cx="6" cy="12" r="1.5"></circle>
+                      <circle cx="18" cy="12" r="1.5"></circle>
+                    </svg>
+                  </a>
+                </OutsideClickHandler>
+              </div>
             </div>
             <div>
               <a className="link-1 link">Message</a>
@@ -71,7 +85,7 @@ export default function Profile() {
               </a>
             </div>
             {/* <div onClick={toogleModal} id="checkModal"> */}
-            <div onClick={() => SetShowModal(true)} id="checkModal">
+            <div onClick={() => SetShowModal(true)}>
               <OutsideClickHandler onOutsideClick={() => SetShowModal(false)}>
                 <a href="#" className="link-4 link" id="angle">
                   <i class="fa-solid fa-ellipsis"></i>
