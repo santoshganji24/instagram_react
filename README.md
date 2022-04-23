@@ -1,4 +1,4 @@
-Quik link https://santoshrks7.github.io/instagram_react/
+Quik Demo https://santoshrks7.github.io/instagram_react/
 
 # Getting Started with Create React App
 
