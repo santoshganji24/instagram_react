@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 975px;
+    height: 60px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.logoimage {
+    width: 103px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.searchbox {
+    position: relative;
+}
+
+.search-input {
+    width: 268px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #efefef;
+    border-style: none;
+    position: relative;
+    outline: none;
+}
+
+.search-input, input[type="text"]::placeholder {
+    padding-left: 25px;
+}
+
+.button {
+    width: 268px;
+    position: absolute;
+    top: 10px;
+    display: flex;
+    left: 70px;
+    align-content: center;
+    align-items: center;
+}
+
+/* .inline-search {
+    margin-left: 6px;
+    color: #8E8E8E;
+} */
+.nav-mob {
+    display: none;
+}
+
+.navlinks-mob {
+    display: none;
+}
+
+.navlinksdesktop {
+    display: block;
+}
+
+.instagram-logo {
+    display: block;
+}
+
+header {
+    display: grid;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        display: none;
+    }
+
+    .nav-mob {
+           display: block;
+        width: 390px;
+        height: 44px;
+        padding: 0 16px;
+        display: grid;
+        align-content: center;
+        display: grid;
+        grid-template-columns: 30px 294px;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .searchbox {
+        display: none;
+    }
+
+    .navlinksdesktop {
+        display: none;
+    }
+
+    .instagram-logo {
+        display: none;
+    }
+}

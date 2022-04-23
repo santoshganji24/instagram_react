@@ -1,0 +1,16 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px ;
+  
+}
+
+.gallery-items {
+    width: 293px;
+    height: 293px;
+  } */

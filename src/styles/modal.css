@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mob-block {
+    width: 400px;
+    text-align: center;
+    margin: 20px;
+    line-height: 48px;
+    font-weight: 700;
+    padding: 4px 0;
+    border-radius: 15px;
+    margin: 0 auto;
+    /* display: none; */
+    background: white;
+    z-index: 2;
+}
+
+.mob-block div {
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.mob-block div:last-child {
+    border: none;
+}
+
+.mob-block a {
+    color: red;
+}
+
+.cancel a {
+    color: black;
+    font-weight: 400;
+
+}
+
+.hover-block {
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    /* display: none; */
+    position: fixed;
+}
+
+

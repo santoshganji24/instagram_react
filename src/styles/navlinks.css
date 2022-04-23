@@ -1,0 +1,25 @@
+.navlinks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlinks a {
+    margin-left: 22px;
+    height: 24px;
+}
+
+.navlinks svg {
+    width: 24px;
+    height: 24px;
+}
+
+.nav-image {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+/* .logoimage {
+    width: 103px;
+    height: 29px;
+} */

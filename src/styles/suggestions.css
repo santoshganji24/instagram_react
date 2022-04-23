@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.suggestions {
+    padding: 20px;
+    width: 100%;
+    border: 1px solid darkgray;
+    color: darkgray;
+    margin-bottom: 20px;
+}
+
+.suggestedusers {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    width: 180px;
+}
+
+.user-image {
+    width: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .suggestions {
+        padding: 0px;
+        border-top: 1px solid darkgray;
+        border-bottom: 1px solid darkgray;
+        border-left: none;
+        border-right: none;
+
+    }
+
+    .suggestions span {
+        display: none;
+    }
+
+    .suggestedusers {
+        /* width: 160px; */
+    }
+}
